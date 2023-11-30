@@ -1,0 +1,26 @@
+.contenedor{
+    background-color: #5a189a;
+    border-bottom: 2px solid #f72585;
+}
+
+.nombre{
+    color: #F7EFE5;
+}
+
+.titleNav{
+    color: rgb(210, 210, 210);
+    border-bottom: 1px solid white;
+}
+
+.titleNav2{
+    border-bottom: 1px solid white;
+    color: #F7EFE5;
+    margin: 0.5rem;
+}
+
+.b{
+    width: 2.5rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: white;
+}

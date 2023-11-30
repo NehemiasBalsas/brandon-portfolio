@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@504&display=swap');
+
+.contenedorSkills {
+    background-color: #5a189a;
+    height: auto;
+    /* Cambiado a 'auto' para adaptarse al contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_skill {
+    margin-bottom: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.7rem;
+    padding: 0.5rem;
+    border-bottom: 1.5px solid #f72585;
+}
+
+.skill_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.3rem;
+    width: 30rem;
+    max-width: 100%;
+    /* Agregado para dispositivos más pequeños */
+    height: auto;
+    /* Cambiado a 'auto' para adaptarse al contenido */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+}
+
+.skill_group {
+    background-color: #fff;
+    height: auto;
+    /* Cambiado a 'auto' para adaptarse al contenido */
+    border: 1.9px solid #f72585;
+    border-radius: 10px;
+    box-shadow: 0 0 1.4rem rgba(0, 0, 0, 1);
+    padding: 20px;
+    text-align: center;
+}
+
+.imagenH {
+    width: 3.5rem;
+    height: auto;
+    margin: auto;
+}
+
+/* Media query para dispositivos con un ancho máximo de 768px (típicamente tablets y teléfonos) */
+@media only screen and (max-width: 768px) {
+    .skill_grid {
+        width: 70%;
+    }
+
+    .imagenH {
+        max-width: 50px;
+    }
+}
+
+/* Media query para dispositivos con un ancho máximo de 510px (teléfonos más pequeños) */
+@media only screen and (max-width: 510px) {
+
+    .imagenH{
+        max-width: 2rem;
+    }
+
+    .skill_group{
+        padding: .5rem;
+    }
+}
+@media only screen and (max-width: 340px) {
+
+    .imagenH{
+        max-width: 1rem;
+        height: 1.3rem;
+    }
+
+    .skill_group{
+        padding: .2rem;
+    }
+}
