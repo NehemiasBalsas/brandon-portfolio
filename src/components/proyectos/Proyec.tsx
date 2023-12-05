@@ -24,8 +24,10 @@ export default function Proyec() {
           <p>eCommerce implementado con next js y API para obtener los productos,contiene informacion de los productos,carrito de compras,mercado pago integrado, un chat en tiempo real hecho con Socket.io .</p>
         </div>
         <div className='item_info'>
-          <h2 className='subtitle'>Calculadora</h2>
-          <p>Es una herramienta versátil. Con funciones de suma, resta, multiplicación y división, ofrece resultados precisos de manera rápida y eficiente.</p>
+          <h2 className='subtitle'>Amodonas</h2>
+          <p>Landing Page hecha con nextJS para un emprendimiento, en el cual tiene como fin el publicitar y contactar a los clientes, con las empleadas de Amodonas.
+            ¡haz tu pedido de forma facil y segura!
+          </p>
         </div>
         <div className='item_info'>
         <h2 className='subtitle'>Pokedex</h2>
@@ -40,8 +42,8 @@ export default function Proyec() {
                 </Link>
             </Button>
             <Button className='soyBoton' color="danger" variant="bordered">
-                <Link href='https://calculadora-de-brandon.vercel.app/' target='_blank'>
-                  <div className='Linkk'>Calculadora</div>
+                <Link href='https://amodonas.vercel.app/' target='_blank'>
+                  <div className='Linkk'>Amodonas</div>
                 </Link>
             </Button>
             <Button className='soyBoton' color="danger" variant="bordered">
