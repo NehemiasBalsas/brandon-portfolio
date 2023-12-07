@@ -1,16 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@504&display=swap');
 
 .Contacto {
-    height: 14rem;
+    height: 20rem;
     background-color: #5a189a;
     display: grid;
     place-content: center;
 }
 
-.divC {
+.contenedor_titleR{
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 30rem;
+    margin-bottom: .5rem;
+}
+
+.RedessSo{
+    font-size: 1rem;
+    font-weight: 500;
+    border-bottom:2px solid #f72585;
+    padding: .2rem;
+}
+.icon_contactos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+}
+
+.divC {
+    margin-top: .6rem;
     margin-bottom: .6rem;
     padding: 0.2rem;
 }
@@ -32,6 +51,25 @@
     margin-right: 1rem;
     border: 1.5px solid #f72585;
     border-radius: 15px;
+}
+.telefono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .3rem;
+}
+
+.phone{
+    width: 2rem;
+    margin-right: 1rem;
+    border: 1.5px solid #f72585;
+    border-radius: 15px;
+}
+
+.MarcaAgua{
+    margin-top: .9rem;
+    color: rgba(0, 0, 0, 0.578);
+    font-size: .9rem;
 }
 
 /* Media query para dispositivos móviles */
